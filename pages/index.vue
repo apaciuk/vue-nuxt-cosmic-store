@@ -1,12 +1,12 @@
 <template>
  <div>
-     <section class="hero is-medium" :style="{ backgroundImage: `url(${image})`}">>
+     <section class="hero is-medium" :style="{ backgroundImage: `url(${image})`}">
       <div class="hero-body">
         <div class="container">
           <h1 class="title"> Celebrate Uniquesness</h1>
           <h2 class="is-size-3 has-text-weight-light">
             Beautiful mobile covers that <br>
-            reflects your personality.
+            reflect your personality.
           </h2>
         </div>
       </div>
@@ -39,7 +39,7 @@
         title="Free"
         icon="github"
       >
-        Open source on <a href="https://github.com/buefy/buefy">
+        Open source on <a href="vue-nuxt-cosmic-store">
           GitHub
         </a>
       </card>
@@ -58,9 +58,11 @@
         icon="alert-decagram"
       >
         Built with <a href="https://vuejs.org/">
-          Vue.js
+          Vue.js,
+        </a> <a href="https://vuejs.org/">
+          Cosmic JS
         </a> and <a href="http://bulma.io/">
-          Bulma
+          Buefy
         </a>
       </card>
 

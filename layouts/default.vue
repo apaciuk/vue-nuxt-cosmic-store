@@ -4,7 +4,7 @@
       <div class="container">
         <div class="navbar-brand">
           <router-link to="/" class="navbar-item is-size-3 logo has-text-dark">
-            The<b>Case</b> Company
+          The <b>Case</b> Company
           </router-link>
         </div>
         <div class="navbar-menu is-active">
@@ -20,7 +20,7 @@
     <footer class="footer">
       <div class="container">
         <div class="content has-text-centered">
-          Proudly Powered By <a href="https://cosmicjs.com" class="has-text-dark"><strong>Vue &amp; Cosmic JS</strong></a>
+          Proudly Powered By <a href="https://cosmicjs.com" class="has-text-dark"><strong>Vue</strong></a>, <a class="has-text-dark" href=""><strong>Cosmic JS</strong></a> &amp; <a class="has-text-dark" href="#"><strong>Buefy</strong></a>
         </div>
       </div>
     </footer>
