@@ -16,10 +16,12 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
-
+  css: [
+ 
+   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+   '~plugins/buefy',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -42,5 +44,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+   /*
+  ** Environment variables
+  */
+  env: {
+    COSMIC_BUCKET: process.env.COSMIC_BUCKET || 'vue-nuxt-cosmic-store',
+    COSMIC_READ_KEY: process.env.COSMIC_READ_KEY,
+    STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY
   }
 }

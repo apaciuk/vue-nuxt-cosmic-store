@@ -15,6 +15,7 @@
           </div>
         </div>
       </div>
+     <ForkThis /> 
     </nav>
     <nuxt/>
     <footer class="footer">

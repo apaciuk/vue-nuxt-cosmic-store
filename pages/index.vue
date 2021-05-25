@@ -70,7 +70,7 @@
         title="Lightweight"
         icon="arrange-bring-to-front"
       >
-        No other internal dependency
+        No other internal dependency (much)
       </card>
     </div>
   </section>
