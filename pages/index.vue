@@ -1,6 +1,6 @@
 <template>
  <div>
-     <section class="hero is-medium" :style="{ backgroundImage: `url(${hero})` }">
+     <section class="hero is-medium" :style="{ backgroundImage: `url(${image})`}">>
       <div class="hero-body">
         <div class="container">
           <h1 class="title"> Celebrate Uniquesness</h1>
@@ -76,9 +76,21 @@
 </template>
 
 <script>
+import heroImg from "assets/hero.jpg";
 export default {
   name: 'HomePage',
+   data() {
+    return {
+      image: heroImg,
+    };
+  }
 
 
 }
 </script>
+
+<style scoped>
+.hero-is-medium {
+background-image: 'hero.jpg'
+}
+</style>
