@@ -1,5 +1,26 @@
 # vue-nuxt-cosmic-store
 
+ Vue eCommerce with Buefy (Bulma) Axios, Cosmic Headless CMS/JS, Vuex
+
+
+## Demo sandbox view
+
+
+## Netlify Test Deploy
+
+
+# Author
+
+Paul Anhony McGowan
+
+# Repo
+
+https://github.com/xhostcom/vue-nuxt-cosmic-store.git
+
+## Is this normal?
+
+## Yes, its perfectly normal
+
 ## Build Setup
 
 ```bash
