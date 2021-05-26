@@ -4,7 +4,7 @@
       <div class="container">
         <div class="navbar-brand">
           <router-link to="/" class="navbar-item is-size-3 logo has-text-dark">
-          The <b>Case</b> Company
+          <span><b> Case </b></span> Bunker
           </router-link>
         </div>
         <div class="navbar-menu is-active">
@@ -85,17 +85,17 @@
 </template>
 <script>
   export default {
-    //computed: {
-     // cartTotal () {
-       // return this.$store.state.cartTotal
-     // }
-   // }
+    computed: {
+     cartTotal () {
+       return this.$store.state.cartTotal
+     }
+   }
   }
 </script>
 
 <style>
 body {
-  background: #DAE2DB;
+  background: #dae0e2;
 }
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
