@@ -79,7 +79,6 @@
 
 <script>
 import heroImg from "assets/hero.jpg";
-import cosmicjs from '@/plugins/cosmicjs'
 export default {
   name: 'HomePage',
   data() {
