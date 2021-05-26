@@ -18,7 +18,7 @@ https://github.com/xhostcom/vue-nuxt-cosmic-store.git
 
 ## Todo
 
-Fix add to cart/checkout error
+Fix add to cart/checkout error & filter issue
 
 ## Is this normal?
 
