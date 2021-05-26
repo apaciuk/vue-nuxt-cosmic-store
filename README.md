@@ -2,11 +2,9 @@
 
  Vue eCommerce with Buefy (Bulma) Axios, Cosmic Headless CMS/JS, Vuex
 
-## Demo sandbox view
+## Test Deploy
 
-
-## Netlify Test Deploy
-
+http://warlike-horses.surge.sh/
 
 # Author
 
