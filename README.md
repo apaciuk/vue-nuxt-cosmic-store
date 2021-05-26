@@ -2,7 +2,6 @@
 
  Vue eCommerce with Buefy (Bulma) Axios, Cosmic Headless CMS/JS, Vuex
 
-
 ## Demo sandbox view
 
 
@@ -16,6 +15,10 @@ Paul Anhony McGowan
 # Repo
 
 https://github.com/xhostcom/vue-nuxt-cosmic-store.git
+
+## Todo
+
+Fix add to cart error
 
 ## Is this normal?
 
@@ -36,6 +39,6 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-```
+
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
