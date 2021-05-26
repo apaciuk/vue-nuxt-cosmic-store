@@ -2,7 +2,7 @@
   <main>
     <section class="section">
       <div class="container">
-        <nuxt-link to="/" class="back-to-shopping has-text-weight-bold"> &#8592; Back to shopping</nuxt-link>
+        <nuxt-link to="/" class="back-to-shopping has-text-weight-bold"> &#8592; Back To Store</nuxt-link>
         <div class="box">
           <h1 class="title has-text-centered">
             Your Cart
