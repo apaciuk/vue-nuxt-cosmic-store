@@ -61,7 +61,7 @@
           Vue.js,
         </a> <a href="https://www.cosmicjs.com/">
           Cosmic JS
-        </a> and <a href="http://bulma.io/">
+        </a> and <a href="http://buefy.org/">
           Buefy
         </a>
       </card>
@@ -70,7 +70,7 @@
         title="Lightweight"
         icon="arrange-bring-to-front"
       >
-        No other internal dependency (much)
+        No other internal dependency
       </card>
     </div>
   </section>
