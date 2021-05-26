@@ -79,15 +79,28 @@
 
 <script>
 import heroImg from "assets/hero.jpg";
+import cosmicjs from '@/plugins/cosmicjs'
 export default {
   name: 'HomePage',
-   data() {
+  data() {
     return {
       image: heroImg,
+      types: ['painted', 'pattern', 'gradient'],
+      selectedTypes: []
     };
+  },
+   computed: {
+    products() {
+      return this.$store.state.products.filter(el =>
+        this.selectedTypes.length
+        ? this.selectedTypes.includes(el.metadata.type)
+        : el
+      )
+    }
+  },
+  async fetch({ store, params }) {
+    await store.dispatch('getProducts')
   }
-
-
 }
 </script>
 
